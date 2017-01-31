@@ -2,31 +2,42 @@
 <html>
 	<head>
 		<title>Steven Fox</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 	<header>
-		<h1>Steven Fox</h1>
-		<section>About | Portfolio | Contact </section>
+		<nav id="navbox">
+			<section class="navlinks">About</section>
+			<section class="navlinks">Portfolio</section>
+			<section class="navlinksend">Contact</section>
+		</nav>
+		<section id="mynamebox">
+			<h2>Steven Fox</h2>
+		</section>
 	</header>
-	<div>
-		<section>
-			<h2>About Me</h2>
-			<div></div>
-			<img src="./assets/images/Steven_Fox_About_Me_Picture.jpg">
-			<p>I live in Emeryville, CA and moved up the Bay Area back in July of 2015. I currently work at Art.com as an E-Commerce Manager and work as a barback at a bar called Prizefighter. I enjoy running, creative cocktails and craft beer, coding, being with friends and family.</p>
-			<p>I am taking this course to broaden my knowledge in programming. Also, it will be beneficial to be able to take the applications that I have built and make them more interactive and user friendly through javascript, HTML, and CSS.</p>
-		</section>
-		<section>
-			<h3>Connect with Me</h3>
-			<div></div>
-			<img src="./assets/images/1485829423_github_square_black.png">
-			<img src="./assets/images/1485829409_linkedin_square_color.png">
-			<img src="./assets/images/1485829397_stackoverflow.png">
+	<div id="mainboxbackground">
+		<section id="maincontentwindow">
+			<section id="aboutmeheader">
+				<h2>About Me</h2>
+			</section>
+			<section id="maincontentinfo">
+				<img id="mainimage" src="./assets/images/Steven_Fox_About_Me_Picture.jpg" width="164px" height="164px">
+				<p id="paragraph1">I live in Emeryville, CA and moved up the Bay Area back in July of 2015. I currently work at Art.com as an E-Commerce Manager and work as a barback at a bar called Prizefighter. I enjoy running, creative cocktails and craft beer, coding, being with friends and family.</p>
+				<p id="paragraph2">I am taking this course to broaden my knowledge in programming. Also, it will be beneficial to be able to take the applications that I have built and make them more interactive and user friendly through javascript, HTML, and CSS.</p>
+			</section>
+		</section>	
+		<section id="connectwindow">
+			<section id="connectheader">
+				<h3>Connect with Me</h3>
+			</section>
+			<section id="connectlogossection">
+				<img class="connectlogos" src="./assets/images/1485829423_github_square_black.png">
+				<img class="connectlogos" src="./assets/images/1485829409_linkedin_square_color.png">
+				<img src="./assets/images/1485829397_stackoverflow.png" width="63px" height="59px">
+			</section>
 		</section>
 	</div>
-	<div>
-	</div>
-	<footer>
+	<footer id="footer">
 		<section>© Copyright 2017 Steven Fox</section>
 	</footer>
 	</body>
