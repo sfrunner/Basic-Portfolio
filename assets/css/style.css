@@ -48,7 +48,7 @@
 	overflow:auto;
 	width:1224px;
 	height:692px;
-	background-image:url('assets/images/old_moon.png');
+	background-image:url("../images/old_moon.png");
 	border-bottom:8px;
 	border-bottom-style:solid;
 	border-bottom-color:#4aaaa5;
@@ -174,5 +174,42 @@ footer{
 	color: #777777;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	
+}
+
+#textboxheaderfirst{
+	margin-top: 100px;
+	margin-left: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align:left;
+	font-size:large;
+	color: #777777;
+}
+
+
+.textboxheader{
+	margin-top: 20px;
+	margin-left: 33px;
+	margin-right: 33px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align:left;
+	font-size:large;
+	color: #777777;
+}
+
+.textbox{
+	margin-top: 5px;
+	margin-left: 33px;
+	margin-right: 33px;
+	width:80%;
+	height:20px;
+	border:thin;
+	border-style:solid;
+	border-color:#cccccc;
+
+}
+
+/* This overrides the textbox height for the message box */
+#textboxmessageheight{
+	height:140px;
 }
 
