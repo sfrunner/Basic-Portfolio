@@ -47,11 +47,22 @@
 #mainboxbackground{
 	overflow:auto;
 	width:1224px;
-	height:692px;
+	height:575px;
 	background-image:url("../images/old_moon.png");
 	border-bottom:8px;
 	border-bottom-style:solid;
 	border-bottom-color:#4aaaa5;
+}
+
+#mbbheightportfolio{
+	overflow:auto;
+	width:1224px;
+	height:1165px;
+	background-image:url("../images/old_moon.png");
+	border-bottom:8px;
+	border-bottom-style:solid;
+	border-bottom-color:#4aaaa5;
+
 }
 
 #maincontentwindow{
@@ -65,6 +76,18 @@
 	border-style:solid;
 	float: left;
 	
+}
+
+#mainportfoliowindow{
+	margin-top:38px;
+	margin-left: 85px;
+	height: 1065px;
+	width:	650px;
+	background:#ffffff;
+	border:thin;
+	border-color:#dddddd;
+	border-style:solid;
+	float: left;
 }
 
 #aboutmeheader{
@@ -173,6 +196,7 @@ footer{
 	text-align:center;
 	color: #777777;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: sticky;
 	
 }
 
@@ -213,3 +237,68 @@ footer{
 	height:140px;
 }
 
+.imageboxleft{
+
+	float:left;
+	width:280px;
+	height:280px;
+	margin-left:33px;	
+	margin-top:33px;
+	
+}
+
+.imageboxright{
+	margin-left:31px;
+	float:left;
+	width:280px;
+	height:280px;	
+	margin-top:33px;
+	
+}
+
+.portfolioimagesleft{
+	width:280px;
+	height:280px;
+	position:relative;
+	z-index:1;
+	float:left;
+}
+
+.portfolioimagesright{
+	width:280px;
+	height:280px;
+	position:relative;
+	z-index:1;
+	float:left;
+}
+
+
+.portfolioimageheaderleft{
+	float: left;
+	top: -90px;
+	left:0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	z-index:2;
+	position:relative;
+}
+
+.portfolioimageheaderright{
+	float: left;
+	top:-90px;
+	left:0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	position:relative;
+	z-index:2;
+	}
